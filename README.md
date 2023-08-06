@@ -3,7 +3,7 @@ This repository contains the code for my personal portfolio website built using 
 
 # Live Demo
 
-http://manan-portfolio.s3-website-us-east-1.amazonaws.com/
+
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements: 
@@ -15,11 +15,11 @@ To run this project locally, run this command on your git bash:
 
 Linux and macOS:
 
-sudo git clone https://github.com/mananahujaa/Responsive-personal_portfolio.git 
+sudo git clone https://github.com/shreya6360/Responsive-personal_portfolio.git 
 
 Windows:
 
-git clone https://github.com/mananahujaa/Responsive-personal_portfolio.git 
+git clone https://github.com/shreya6360/Responsive-personal_portfolio.git 
 
 # License
 This project is free to use and does not contains any license.

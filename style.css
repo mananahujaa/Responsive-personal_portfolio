@@ -178,8 +178,8 @@ span {
 
 .about-img img {
    width: 49rem;
-   height: 38rem;
-   left: 10%;
+   height: auto;
+   left: 0;
 }
 
 .heading {
