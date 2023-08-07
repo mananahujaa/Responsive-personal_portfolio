@@ -13,9 +13,9 @@
 }
 
 :root {
-   --bg-color: #1f242d;
-   --second-bg-color: #323946;
-   --text-color: #fff;
+   --bg-color: #123c69;
+   --second-bg-color: #bab2b5;
+   --text-color: #ac3b61;
    --main-color: #0ef;
 }
 
@@ -306,7 +306,7 @@ span {
 /* The actual content */
 .content {
    padding: 20px 30px;
-   background-color: #1f242d;
+   background-color: #123c69;
    position: relative;
    border-radius: 6px;
 }
@@ -374,6 +374,7 @@ span {
       width: 100%;
       padding-left: 70px;
       padding-right: 25px;
+      
    }
 
    /* Make sure that all arrows are pointing leftwards */
@@ -382,7 +383,8 @@ span {
       border: medium solid white;
       border-width: 10px 10px 10px 0;
       border-color: transparent white transparent transparent;
-   }
+      
+   }  
 
    /* Make sure all circles are at the same spot */
    .left::after,
