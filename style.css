@@ -201,6 +201,51 @@ span {
    margin: 2rem 0 3rem;
 }
 
+/* Skills Section Styles */
+.skills {
+   padding: 20px;
+}
+
+.skill-category {
+   margin-bottom: 20px;
+   background-color: black; /* Add black background */
+   padding: 10px; /* Add padding for spacing */
+
+}
+
+h2 {
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+h3 {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.skills-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.skill {
+   margin-right: 20px;
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.skill img {
+   width: 150px; /* Adjust the width as needed */
+   height: auto;
+   margin-right: 10px;
+}
+
+.skill p {
+   font-size: 16px;
+   font-weight: bold;
+}
+
 .secondSection {
    max-width: 80vw;
    margin: auto;
