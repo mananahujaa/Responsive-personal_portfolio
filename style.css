@@ -208,19 +208,20 @@ span {
 
 .skill-category {
    margin-bottom: 20px;
-   background-color: black; /* Add black background */
-   padding: 10px; /* Add padding for spacing */
-
+   background-color: black;
+   padding: 10px;
 }
 
 h2 {
    font-size: 24px;
    margin-bottom: 10px;
+   color: white;
 }
 
 h3 {
    font-size: 18px;
    margin-bottom: 10px;
+   color: white;
 }
 
 .skills-list {
@@ -236,7 +237,7 @@ h3 {
 }
 
 .skill img {
-   width: 150px; /* Adjust the width as needed */
+   width: 150px;
    height: auto;
    margin-right: 10px;
 }
@@ -244,7 +245,30 @@ h3 {
 .skill p {
    font-size: 16px;
    font-weight: bold;
+   color: white;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+   .skill-category {
+       padding: 5px; /* Adjust padding for smaller screens */
+   }
+   
+   .skills-list {
+       flex-direction: column; /* Stack skills vertically on smaller screens */
+   }
+   
+   .skill {
+       margin-right: 0; /* Remove right margin to stack skills vertically */
+   }
+   
+   .skill img {
+       width: 100px; /* Adjust image size for smaller screens */
+       margin-right: 0;
+       margin-bottom: 5px; /* Add spacing between skills */
+   }
+}
+
 
 .secondSection {
    max-width: 80vw;
