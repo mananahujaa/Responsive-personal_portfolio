@@ -210,6 +210,7 @@ span {
    margin-bottom: 20px;
    background-color: black;
    padding: 10px;
+   border-radius: 10px; /* Add rounded corners for the containers */
 }
 
 h2 {
@@ -251,24 +252,23 @@ h3 {
 /* Responsive Styles */
 @media (max-width: 768px) {
    .skill-category {
-       padding: 5px; /* Adjust padding for smaller screens */
+       padding: 5px;
    }
    
    .skills-list {
-       flex-direction: column; /* Stack skills vertically on smaller screens */
+       flex-direction: column;
    }
    
    .skill {
-       margin-right: 0; /* Remove right margin to stack skills vertically */
+       margin-right: 0;
    }
    
    .skill img {
-       width: 100px; /* Adjust image size for smaller screens */
+       width: 100px;
        margin-right: 0;
-       margin-bottom: 5px; /* Add spacing between skills */
+       margin-bottom: 5px;
    }
 }
-
 
 .secondSection {
    max-width: 80vw;
