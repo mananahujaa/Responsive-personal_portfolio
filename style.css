@@ -34,7 +34,15 @@ section {
    min-height: 100vh;
    padding: 10rem 9% 2rem;
 }
+ul li a {
+   margin-bottom: 10px;
+ }
 
+.links {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+ }
 .header {
    position: fixed;
    top: 0;
